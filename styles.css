@@ -92,7 +92,7 @@ main {
 }
 
 .title {
-    background-image: url("../UOCITY/img/greylandscape.webp");
+    background-image: url("./img/greylandscape.webp");
     text-align: justify;
     background-size: cover;
     background-repeat: no-repeat;
