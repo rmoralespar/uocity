@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Bodoni:ital@1&family=Poppins:wght@800&family=Raleway:ital,wght@0,400;0,700;0,800;1,400&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.contenedor img:first-child {
+    margin-right: 100px;
+}
+
+.foto1 {
+    position: sticky;
+    max-height: 300px;
+    max-height: 150px;
+    margin-top: 50px;
+       
+}
+.foto1:hover {
+    filter: grayscale(90%);
+    transition: all 0.5s ease-in-out;
+}
+
+.titulos {
+    font-family: "Libre Bodoni";
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+nav ul .estapagina {
+    color: rgb(189, 55, 0);
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rep {
+    height: 150px;
+    position: sticky;
+    padding-left: 35%;
+    margin-bottom: -10px;
+    margin-top: 5px;
+
+
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(212, 212, 212);
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.title {
+    background-image: url("../UOCITY/img/greylandscape.webp");
+    text-align: justify;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(236, 226, 174);
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 5rem;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.title2 {
+    background-image: url("../img/cabecera.jpeg");
+    text-align: justify;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(131, 41, 41);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5rem;
+    padding-left: 20%;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.introvideos{
+    text-align: justify;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.fotohistoria {
+    max-width: 500px;
+    max-height: 500px;
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+}
+
+.sitios {
+    max-width: 40%;
+    width: 50%;
+    height: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.summary {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.summary>p {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20rem;
+    line-height: 2rem;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.textoanimado {
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    animation: typing 3.5s steps(40, end),
+        cursor .75s step-end infinite;
+    ;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes cursor {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+.summary>h1 {
+    font-family: "Libre Bodoni";
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.tellmemore {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.tellmemore:hover {
+    clip-path: polygon(50% 50%, 90% 88%,
+            80% 10%, 20% 10%, 8% 90%);
+    animation: tellme 3s infinite;
+}
+
+@keyframes tellme {
+    0% {
+        clip-path: polygon(50% 50%, 90% 85%,
+                80% 10%, 20% 10%, 8% 90%);
+    }
+
+    100% {
+        clip-path: polygon(50% 0%, 100% 45%,
+                85% 100%, 25% 100%, 0% 45%);
+    }
+}
+
+.png2 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.png2:hover {
+    filter: opacity(70%);
+}
+
+.noticies {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.png {
+    width: 90px;
+    height: 90px;
+    padding-left: 50px;
+}
+
+.png :hover {
+    filter: grayscale(90%);
+    transition: all 0.5s ease-in-out;
+}
+
+.summit {
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+    height: 150px;
+}
+
+.thedge {
+    clip-path: ellipse(45% 45%);
+}
+
+.noticies2 {
+    display: grid;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.noticia {
+    width: 250px;
+    text-align: left;
+    margin: 10px;
+}
+
+.noticia2 {
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+.banner {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.banner:hover {
+    filter: grayscale(75%);
+    animation: rotacion 2.5s linear infinite;
+}
+
+@keyframes rotacion {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.noticia>a {
+    color: rgb(189, 55, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.noticia>a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.resumen {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.noticia>p {
+    text-align: justify;
+}
+
+.noticia .readmore {
+    text-decoration: underline;
+}
+
+.noticia .readmore :hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+fieldset {
+    display: block;
+    background: rgba(242, 232, 228, 0.863);
+    border: none;
+    padding: 2rem;
+    line-height: 25px;
+}
+
+input,
+textarea {
+    border: none;
+    align-content: flex-end;
+}
+
+input,
+select {
+    border: none;
+    padding: 0.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario li {
+    list-style: none;
+    padding-bottom: 13px;
+}
+
+.formulario li a {
+    color: rgb(189, 55, 0);
+}
+
+.formulario .texto {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+    width: 40%;
+}
+
+.formulario .texto :hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.formulario li input {
+    width: 350px;
+}
+.validate{
+    background-color: rgb(189, 55, 0);
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        padding: 5px;
+        border-radius: 20%;
+}
+.validate:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(189, 55, 0);
+    
+}
+.boton {
+    background-color: rgb(189, 55, 0);
+    color: rgb(255, 255, 255);
+    margin-right: 300px;
+    padding: 10px;
+    border: none;
+}
+
+.boton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(189, 55, 0);
+}
+
+.check {
+    margin-bottom: 10px;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.titulocategoria {
+    margin-top: 2%;
+}
+
+.categorias {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.era {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 750px;
+    max-height: 300px;
+    text-align: left;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+
+.era .texto {
+    width: 400px;
+    padding-right: 20px;
+}
+
+.readmore .texto {
+    width: 400px;
+
+}
+
+.era img {
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.erapar {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 750px;
+    max-height: 300px;
+    text-align: left;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    margin-left: 40%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.erapar .texto {
+    width: 400px;
+}
+
+.erapar img {
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.readmore {
+    color: rgb(189, 55, 0);
+    text-decoration: dotted 1px;
+}
+
+.readmore:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.film {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+}
+
+.video figure {
+    background: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+cite {
+    font-family: "Raleway Bolder", sans-serif;
+    font-weight: bolder;
+}
+
+.cita {
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    border-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-left-color: red;
+    line-height: 25px;
+    padding: 10px;
+    font-style: italic;
+}
+
+footer {
+    max-width: 100%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+    margin-top: 0%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li :hover {
+    color: rgb(189, 55, 0);
+    text-decoration: none;
+}
+
+.nombreform {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    html {
+        overflow-x: hidden;
+        max-width: 768px;
+    }
+
+    body {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .summary {
+        width: 40%;
+        font-size: smaller;
+    }
+
+    .summary img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .header>img {
+        image-resolution: 300dpi;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .header {
+        width: 50px;
+        padding-right: 150px;
+    }
+
+    .menu>ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rep {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+    footer ul:first-of-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+        max-width: 768px;
+    }
+
+    .summary>p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .noticies {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        font-size: smaller;
+    }
+
+    .noticia {
+        width: unset;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .noticia img {
+        max-width: 70%;
+        max-height: 70%;
+        width: unset;
+        height: unset;
+    }
+
+    .noticies2 {
+        display: grid;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: unset;
+    }
+
+    .noticia2 {
+        width: unset;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .noticia2 img {
+        max-width: 70%;
+        max-height: 70%;
+        width: unset;
+        height: unset;
+    }
+
+    form {
+        width: 40%;
+        font-size: smaller;
+    }
+
+    .formulario .texto {
+        width: 40%;
+        font-size: smaller;
+    }
+
+    .articulos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        font-size: smaller;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .era {
+        max-width: 55%;
+        max-height: fit-content;
+        padding-right: 45%;
+        justify-content: center;
+    }
+
+    .erapar {
+        max-width: 55%;
+        max-height: fit-content;
+        padding-right: 45%;
+        justify-content: center;
+        margin-right: 30%;
+    }
+
+    .era .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .erapar .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        width: 100%;
+    }
+
+    .film {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: unset;
+    }
+
+}
