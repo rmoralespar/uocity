@@ -23,6 +23,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding-left: 5%;
+    margin-bottom: 20px;
 }
 
 .contenedor {
@@ -35,16 +36,22 @@ body {
 
 .foto1 {
     position: sticky;
-    max-height: 300px;
-    max-height: 150px;
+    max-height: 200px;
     margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: -100px;
        
 }
 .foto1:hover {
     filter: grayscale(90%);
     transition: all 0.5s ease-in-out;
 }
-
+.foto2 {
+    max-height: 450px;
+    max-width: 388px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
 .titulos {
     font-family: "Libre Bodoni";
 }
@@ -247,7 +254,16 @@ main {
     filter: grayscale(90%);
     transition: all 0.5s ease-in-out;
 }
-
+.estatua{
+    width: 350px;
+    height: 350px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.estatua :hover{
+    filter: grayscale(90%);
+        transition: all 0.5s ease-in-out;
+}
 .summit {
     clip-path: circle(50% at 50% 50%);
     width: 200px;
@@ -593,7 +609,6 @@ footer ul li :hover {
         text-align: center;
         overflow-x: hidden;
     }
-
     .summary {
         width: 40%;
         font-size: smaller;
@@ -610,7 +625,6 @@ footer ul li :hover {
         height: 150px;
         overflow: hidden;
     }
-
     .header {
         width: 50px;
         padding-right: 150px;
