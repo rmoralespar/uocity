@@ -28,6 +28,7 @@ body {
 
 .contenedor {
     display: flex;
+    margin-top: 50px;
 }
 
 .contenedor img:first-child {
