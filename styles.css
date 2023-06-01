@@ -38,7 +38,7 @@ body {
 .foto1 {
     position: sticky;
     max-height: 200px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 100px;
     margin-right: -100px;
        
@@ -52,6 +52,7 @@ body {
     max-width: 388px;
     margin-top: 5px;
     margin-left: 50px;
+    margin-bottom: 50px;
 }
 .titulos {
     font-family: "Libre Bodoni";
