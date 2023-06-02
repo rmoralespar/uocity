@@ -259,7 +259,7 @@ main {
 .estatua{
     width: 350px;
     height: 350px;
-    padding-left: 15px;
+    padding-left: 100px;
     margin-top: 50px;
 }
 .estatua :hover{
@@ -612,7 +612,7 @@ footer ul li :hover {
         overflow-x: hidden;
     }
     .summary {
-        width: 40%;
+        width: 55%;
         font-size: smaller;
     }
 
@@ -645,14 +645,14 @@ footer ul li :hover {
     }
 
     footer {
-        width: 100%;
-        font-size: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        overflow: hidden;
+        font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow-x: hidden;
+            padding-right: 70px;
     }
 
 
@@ -685,8 +685,8 @@ footer ul li :hover {
     }
 
     .noticia img {
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 120%;
+        max-height: 120%;
         width: unset;
         height: unset;
     }
@@ -696,29 +696,43 @@ footer ul li :hover {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        width: unset;
+        width: 70%;
     }
 
     .noticia2 {
-        width: unset;
+        width: 70%;
         padding-right: 10px;
         padding-left: 10px;
     }
 
     .noticia2 img {
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 90%;
+        max-height: 90%;
         width: unset;
         height: unset;
     }
-
+.estatua{
+ width: 40%;
+ height: 40%;
+padding-right: 250px;
+}
     form {
-        width: 40%;
+        width: 30%;
         font-size: smaller;
+        margin: 50px;
     }
-
+.nombreform{
+        width: 85%;
+        margin-left: 25px;
+}
+form .formulario{
+margin-right: 30px;
+}
+.boton{
+    margin-right: 20px;
+}
     .formulario .texto {
-        width: 40%;
+        width: 60%;
         font-size: smaller;
     }
 
@@ -738,6 +752,7 @@ footer ul li :hover {
         max-height: fit-content;
         padding-right: 45%;
         justify-content: center;
+        
     }
 
     .erapar {
@@ -747,12 +762,20 @@ footer ul li :hover {
         justify-content: center;
         margin-right: 30%;
     }
-
+.era img{
+    max-width: 120%;
+    margin-left: 45px;
+}
+.erapar img {
+    max-width: 120%;
+    margin-left: 45px;
+}
     .era .texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left:45px;
         width: 100%;
 
     }
@@ -761,6 +784,7 @@ footer ul li :hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 45px;
         width: unset;
         width: 100%;
     }
