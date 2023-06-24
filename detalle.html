@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de indice con la portada">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js"></script>
+ <script defer src="app.js"type="module"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,7 +16,7 @@
  <header class="header">
       <div class="contenedor">
         <a href="index.html"
-          ><img src="./img/nylogo.svg" class="foto1" alt="Logo pagina"></a>
+          ><img src="./img/nylogo.svg" loading="lazy" class="foto1" alt="Logo pagina"></a>
           <br>
       <a href="index.html">
         <img
@@ -31,6 +31,7 @@
       <div class="summary">
         <a href="#ancla"
           ><img
+          loading="lazy" 
             src="./img/libertypng.png"
             class="png2"
             alt="png de enlace de pagina"></a>
@@ -48,6 +49,7 @@
         <div><a href="#ancla"
           >
           <img
+          loading="lazy" 
             class="fotohistoria"
             src="./img/nycpng.png "
             alt="png nyc"
@@ -69,6 +71,8 @@
       <section class="noticies2">
         <div class="noticia2">
           <img
+          sizes="(max-width: 700px) 450px,
+         850px"
             class="sitios"
             loading="lazy"
             src="./img/govsisland.webp"
@@ -94,6 +98,8 @@
         </div>
         <div class="noticia2">
           <img
+          sizes="(max-width: 700px) 450px,
+         850px"
             class="sitios"
             loading="lazy"
             src="./img/soho.webp"
@@ -123,6 +129,8 @@
         </div>
         <div class="noticia2">
           <img
+          sizes="(max-width: 700px) 450px,
+         850px"
             class="sitios"
             src="./img/roosvelt.webp"
             loading="lazy"
@@ -155,6 +163,7 @@
          click en la imagen y viajemos a Nueva York. <br>
           <a href="categoria.html" class="estatua"
               ><img
+              loading="lazy" 
                 src="./img/estatua.png"
                 class="estatua"
                 alt="png de enlace de pagina,bandera con lady liberty"></a>
@@ -164,7 +173,7 @@
     <footer>
       <nav class="menu">
          <a href="index.html"
-          ><img src="./img/nylogofooter.svg" class="fotofooter" alt="Logo pagina"></a>  
+          ><img src="./img/nylogofooter.svg" loading="lazy"  class="fotofooter" alt="Logo pagina"></a>  
        <ul>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="detalle.html">Detalle</a></li>

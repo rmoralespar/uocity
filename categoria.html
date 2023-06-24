@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de indice con la portada">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js"></script>
+  <script defer src="app.js"type="module"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -15,7 +15,7 @@
   <body>
     <header class="header">
       <div class="contenedor">
-        <a href="index.html"><img src="./img/nylogo.svg" class="foto1" alt="Logo pagina"/></a><br>
+        <a href="index.html"><img src="./img/nylogo.svg" loading="lazy" class="foto1" alt="Logo pagina"/></a><br>
         <a href="index.html">
         <img src="./img/thempire.png" class="foto2" loading="lazy" alt="Frase header the empire state"></a></div>
     </header>
@@ -33,7 +33,7 @@
           <strong style="color: whitesmoke">popular landmarks</strong>.
         </p>
         <a href="detalle.html" class="estatua"
-          ><img src="./img/estatua.png" class="estatua" alt="png de enlace de pagina,bandera con lady liberty"></a>
+          ><img src="./img/estatua.png"  loading="lazy" class="estatua" alt="png de enlace de pagina,bandera con lady liberty"></a>
       </div>
       <section class="articulos">
         <div class="era">
@@ -147,6 +147,7 @@
               State para saber más</strong><br>
             <a href="detalle.html" class="png"
               ><img
+              loading="lazy" 
                 src="./img/statepng.png"
                 class="png"
                 alt="png de enlace de pagina"></a>
@@ -158,7 +159,7 @@
     <footer>
       <nav class="menu">
          <a href="index.html"
-          ><img src="./img/nylogofooter.svg" class="fotofooter" alt="Logo pagina"></a>  
+          ><img src="./img/nylogofooter.svg" loading="lazy" class="fotofooter" alt="Logo pagina"></a>  
         <ul>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="detalle.html">Detalle</a></li>

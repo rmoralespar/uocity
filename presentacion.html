@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de presentacion ">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js"></script>
+ <script defer src="app.js"type="module"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,7 +16,7 @@
     <header class="header">
       <div class="contenedor">
         <a href="index.html"
-          ><img src="./img/nylogo.svg" class="foto1" alt="Logo pagina"></a>
+          ><img src="./img/nylogo.svg" class="foto1" loading="lazy" alt="Logo pagina"></a>
           <br>
        <a href="index.html">
         <img src="./img/thempire.png" class="foto2" loading="lazy" alt="Frase header the empire state"> </a>
@@ -46,7 +46,8 @@
         </p>
         <br>
         <a href="index.html"
-          ><img src="./img/tsquare.webp" loading="lazy" width="200px" height="200px"  class="fotohistoria" alt="foto "></a>
+          ><img src="./img/tsquare.webp" sizes="(max-width: 700px) 450px,
+         850px" loading="lazy" width="200px" height="200px"  class="fotohistoria" alt="foto "></a>
         <p>
           Cabe destacar también la ciudad como epicentro de la diversidad cultural,
           Nueva York es conocida por su diversidad cultural, con una población compuesta por personas 
@@ -56,7 +57,7 @@
         </p>
           <div>
         <a href="#ancla"
-          ><img src="./img/noticias.svg" class="banner" alt="seccion de noticias"></a>
+          ><img src="./img/noticias.svg" loading="lazy" class="banner" alt="seccion de noticias"></a>
       </div>
         <p>
           No puede faltar lo que aporta esta ciudad a la cultura y el entretenimiento
@@ -77,7 +78,8 @@
           La Ciudad de Nueva York es considerada un lugar icónico y representativo de la modernidad, la innovación y la diversidad cultural en el mundo
         </p>
         <br><a href="index.html"
-          ><img src="./img/empirepanoramic.webp" class="fotohistoria" alt="foto panoramica" loading="lazy" width="200px" height="200px"></a>
+          ><img src="./img/empirepanoramic.webp" sizes="(max-width: 700px) 450px,
+         850px"class="fotohistoria" alt="foto panoramica" loading="lazy" width="200px" height="200px"></a>
         <p>
          <br>El edificio más famoso del mundo, el Empire State Building: Un rascacielos mundialmente famoso, 
          el Empire State Building es un icónico símbolo del horizonte de NYC. 
@@ -224,7 +226,7 @@
     <footer>
       <nav class="menu">
          <a href="index.html"
-          ><img src="./img/nylogofooter.svg" class="fotofooter" alt="Logo pagina"></a>  
+          ><img src="./img/nylogofooter.svg" loading="lazy" class="fotofooter" alt="Logo pagina"></a>  
       <ul>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="detalle.html">Detalle</a></li>

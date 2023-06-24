@@ -7,7 +7,7 @@
     <title>Portada</title>
     <meta name="description" content="Pagina de indice con la portada">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js"></script>
+    <script defer src="app.js"type="module"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -18,7 +18,7 @@
       <div class="contenedor">
         <a href="index.html"
           ><img src="./img/nylogo.svg"  sizes="(max-width: 700px) 450px,
-         850px"class="foto1" alt="Logo pagina"></a>
+         850px"class="foto1" loading="lazy" alt="Logo pagina"></a>
         <br>
         <a href="index.html">
           <img src="./img/thempire.png" class="foto2" loading="lazy" alt="Frase header the empire state">
@@ -63,7 +63,7 @@
     <footer>
       <nav class="menu">
        <a href="index.html"
-          ><img src="./img/nylogofooter.svg" class="fotofooter" alt="Logo pagina"></a>  
+          ><img src="./img/nylogofooter.svg" loading="lazy" class="fotofooter" alt="Logo pagina"></a>  
         <ul>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="detalle.html">Detalle</a></li>
