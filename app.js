@@ -17,34 +17,123 @@ function validate() {
 }
 $("#validate").bind("click", validate);
 
-// Cargar la imagen en miniatura del video de YouTube
-function loadYouTubeThumbnail() {
-  var players = document.querySelectorAll("#player");
+// Función para cargar el <iframe> de forma asíncrona
+function loadVideoAsync() {
+  var videoContainer = document.getElementById('video');
+  var videoId = "as3wq91Dl-k";
 
-  for (var i = 0; i < players.length; i++) {
-    var player = players[i];
-    var videoId = player.dataset.videoId;
-    var thumbnailUrl =
-      "https://img.youtube.com/vi/" + videoId + "/maxresdefault.jpg";
+  var iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube.com/embed/' + videoId;
+  iframe.width = '640';
+  iframe.height = '360';
+  iframe.allowFullscreen = true;
 
-    // Asignar la URL de la imagen en miniatura al atributo src de la imagen
-    var thumbnailImg = player.querySelector("img");
-    thumbnailImg.src = thumbnailUrl;
-  }
+  videoContainer.appendChild(iframe);
 }
 
-// Cargar la API de YouTube de forma asíncrona
-function loadYouTubeAPI() {
-  var tag = document.createElement("script");
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName("script")[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+window.addEventListener('load', loadVideoAsync);
 
-  // Cargar la imagen en miniatura una vez que se haya cargado la API
-  tag.onload = function () {
-    loadYouTubeThumbnail();
-  };
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "q_uLicmn8N8";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
 }
 
-// Cargar la API de YouTube y las imágenes en miniatura de forma asíncrona
-loadYouTubeAPI();
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "t3wUt2U7zZ4";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "MD35zQk7xYs";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "c4kdb-lUY3Y";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "igZ6PoZAszQ";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "k7Txk5LZo3k";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
+
+function loadVideoAsync() {
+  var videoContainer = document.getElementById("video");
+  var videoId = "qoqiwWvF5lA";
+
+  var iframe = document.createElement("iframe");
+  iframe.src = "https://www.youtube.com/embed/" + videoId;
+  iframe.width = "640";
+  iframe.height = "360";
+  iframe.allowFullscreen = true;
+
+  videoContainer.appendChild(iframe);
+}
+
+window.addEventListener("load", loadVideoAsync);
