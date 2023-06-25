@@ -18,17 +18,8 @@ function validate() {
 $("#validate").bind("click", validate);
 
 
-lazyframe(".lazyframe");
 
-let video = document.querySelectorAll(".lazyframe");
-lazyframe(video);
-
-lazyframe(video, {
-  debounce: 250,
-  lazyload: true,
-  autoplay: true,
-
-  onLoad: (lazyframe) => console.log(lazyframe),
-  onAppend: (iframe) => console.log(iframe),
-  onThumbnailLoad: (img) => console.log(img),
-});
+var iframe = document.createElement("iframe");
+iframe.src = "https://example.com";
+iframe.loading = "lazy";
+document.body.appendChild(iframe);
