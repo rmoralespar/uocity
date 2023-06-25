@@ -539,6 +539,10 @@ select {
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
+.video img{
+width: 560px;
+height: 315px;
+}
 cite {
     font-family: "Raleway Bolder", sans-serif;
     font-weight: bolder;
@@ -805,10 +809,10 @@ margin-right: 30px;
         align-items: center;
         max-width: 10%;
         margin-right: 325px;
+        padding-right: 200px;
+        padding-left: 200px;
     }
 
-.film iframe{
-    max-width: 350px;
-    max-height: 350px;
-}
+
+
 }
