@@ -137,3 +137,19 @@ function loadVideoAsync() {
 }
 
 window.addEventListener("load", loadVideoAsync);
+
+
+lazyframe(".lazyframe");
+
+let elements = document.querySelectorAll(".lazyframe");
+lazyframe(elements);
+
+lazyframe(elements, {
+  debounce: 250,
+  lazyload: true,
+  autoplay: true,
+
+  onLoad: (lazyframe) => console.log(lazyframe),
+  onAppend: (iframe) => console.log(iframe),
+  onThumbnailLoad: (img) => console.log(img),
+});

@@ -98,6 +98,7 @@
     "json-parse-better-errors": "^1.0.2",
     "json-parse-even-better-errors": "^2.3.1",
     "json5": "^2.2.3",
+    "lazyframe": "^2.2.7",
     "lightningcss": "^1.19.0",
     "lightningcss-darwin-x64": "^1.19.0",
     "lines-and-columns": "^1.2.4",
