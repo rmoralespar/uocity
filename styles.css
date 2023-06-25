@@ -534,13 +534,11 @@ select {
     border-color: rgb(255, 255, 255);
     border-width: 10px;
 }
-
 .video figure {
     background: rgb(255, 255, 255);
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
-
 cite {
     font-family: "Raleway Bolder", sans-serif;
     font-weight: bolder;
