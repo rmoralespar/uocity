@@ -141,10 +141,10 @@ window.addEventListener("load", loadVideoAsync);
 
 lazyframe(".lazyframe");
 
-let elements = document.querySelectorAll(".lazyframe");
-lazyframe(elements);
+let video = document.querySelectorAll(".lazyframe");
+lazyframe(video);
 
-lazyframe(elements, {
+lazyframe(video, {
   debounce: 250,
   lazyload: true,
   autoplay: true,
